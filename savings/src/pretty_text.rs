@@ -1,5 +1,5 @@
-
-pub  fn precentage(p: f32){
+#[allow(unused)]
+pub fn precentage(p: f32){
     println!("    〚{}〛 {}%    ", {
         let p = p/10.0;
         let mut n = "".to_string();
